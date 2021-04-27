@@ -1,0 +1,32 @@
+{
+  "name": "@test-scope/stylestest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnantoc/stylestest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnantoc/stylestest/issues"
+  },
+  "homepage": "https://github.com/johnantoc/stylestest#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "mini-css-extract-plugin": "^1.5.0"
+  }
+}
